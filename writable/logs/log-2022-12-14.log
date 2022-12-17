@@ -1,0 +1,81 @@
+ERROR - 2022-12-14 09:29:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `pedidos`' at line 5 in C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT((S...', 0)
+#1 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT((S...')
+#2 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT((S...')
+#3 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT((S...', Array, false)
+#4 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\app\Controllers\Home.php(37): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(898): App\Controllers\Home->getEstadisticas()
+#8 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\jose.m...')
+#12 {main}
+ERROR - 2022-12-14 09:31:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `pedidos`' at line 5 in C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT((S...', 0)
+#1 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT((S...')
+#2 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT((S...')
+#3 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT((S...', Array, false)
+#4 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\app\Controllers\Home.php(37): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(898): App\Controllers\Home->getEstadisticas()
+#8 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\jose.m...')
+#12 {main}
+ERROR - 2022-12-14 09:32:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `pedidos`' at line 5 in C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT((S...', 0)
+#1 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT((S...')
+#2 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT((S...')
+#3 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT((S...', Array, false)
+#4 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\app\Controllers\Home.php(37): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(898): App\Controllers\Home->getEstadisticas()
+#8 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\jose.merino\Downloads\Telegram Desktop\delivery_administrador\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\jose.m...')
+#12 {main}
+CRITICAL - 2022-12-14 14:57:38 --> Array to string conversion
+in APPPATH\Views\empresa\index.php on line 19.
+ 1 APPPATH\Views\empresa\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\empresa\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empresa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('empresa/index', [], true)
+ 5 APPPATH\Controllers\EmpresaController.php(33): view('empresa/index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\EmpresaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpresaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 15:26:18 --> Undefined variable $config
+in APPPATH\Views\empresa\index.php on line 21.
+ 1 APPPATH\Views\empresa\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\empresa\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empresa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('empresa/index', [], true)
+ 5 APPPATH\Controllers\EmpresaController.php(33): view('empresa/index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\EmpresaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpresaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 15:28:56 --> Array to string conversion
+in APPPATH\Views\login\index.php on line 58.
+ 1 APPPATH\Views\login\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\login\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('login/index', [], true)
+ 5 APPPATH\Controllers\LoginController.php(28): view('login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

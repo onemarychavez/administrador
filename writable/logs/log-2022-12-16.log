@@ -1,0 +1,30 @@
+ERROR - 2022-12-16 22:44:57 --> mysqli_sql_exception: Subquery returns more than 1 row in /home/merino/Documentos/desarrollo/administrador/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/merino/Documentos/desarrollo/administrador/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/merino/Documentos/desarrollo/administrador/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/merino/Documentos/desarrollo/administrador/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/merino/Documentos/desarrollo/administrador/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/merino/Documentos/desarrollo/administrador/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/merino/Documentos/desarrollo/administrador/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/merino/Documentos/desarrollo/administrador/app/Controllers/Home.php(37): CodeIgniter\BaseModel->findAll()
+#7 /home/merino/Documentos/desarrollo/administrador/system/CodeIgniter.php(898): App\Controllers\Home->getEstadisticas()
+#8 /home/merino/Documentos/desarrollo/administrador/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /home/merino/Documentos/desarrollo/administrador/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/merino/Documentos/desarrollo/administrador/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/merino/Documentos/desarrollo/administrador/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2022-12-16 22:45:40 --> mysqli_sql_exception: Subquery returns more than 1 row in /home/merino/Documentos/desarrollo/administrador/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/merino/Documentos/desarrollo/administrador/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/merino/Documentos/desarrollo/administrador/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/merino/Documentos/desarrollo/administrador/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/merino/Documentos/desarrollo/administrador/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/merino/Documentos/desarrollo/administrador/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/merino/Documentos/desarrollo/administrador/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/merino/Documentos/desarrollo/administrador/app/Controllers/Home.php(37): CodeIgniter\BaseModel->findAll()
+#7 /home/merino/Documentos/desarrollo/administrador/system/CodeIgniter.php(898): App\Controllers\Home->getEstadisticas()
+#8 /home/merino/Documentos/desarrollo/administrador/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /home/merino/Documentos/desarrollo/administrador/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/merino/Documentos/desarrollo/administrador/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/merino/Documentos/desarrollo/administrador/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
